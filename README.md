@@ -3,7 +3,7 @@
 `monty` is an interpreter of Monty ByteCodes files, which is a scripting language just like Python.
 
 ## About the Monty language
-This is a language that contains specific instructions to manipulate data information (stacks or queues), where each instruction (*called opcode*) is sent per line. Files which contains Monty byte codes usually have the `.m` extension.
+This is a language that contains specific instructions to manipulate data information (stacks or queues), where each instruction (*called opcode*) is sended per line. Files which contains Monty byte codes usually have the `.m` extension.
 
 Example (`file.m`):
 ```bash
@@ -33,8 +33,8 @@ $
 ## Technologies
 * Interpreter was written with C language
 * C files are compiled using `gcc 4.8.4`
-* C files are written according to the C89 standard
-* Tested on Ubuntu 20.04 LTS
+* C files are written according to the C90 standard
+* Tested on Ubuntu 14.04 LTS
 
 ## Usage
 To compile all files:
@@ -107,4 +107,4 @@ L3: unknown instruction pcx
 When there is no errors, `monty` returns `0`. Otherwise, returns `1`
 
 ## Author
-* Yonas Zeleke[GitHub](https://github.com/yonizbrown)
+* Yonas Zeleke: [Twitter](https://twitter.com/yonizzzzzz) - [GitHub](https://github.com/yonizbrown)
